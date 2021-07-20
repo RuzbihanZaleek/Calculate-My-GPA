@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#87B1AD"
+    tools:context=".SemFuture">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/curGpa"
+            android:background="#87B1AD"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:layout_marginTop="1dp"
+            android:padding="5dp"
+            android:gravity="center"
+            android:text="Text View"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/removeSub"
+            android:layout_width="215dp"
+            android:layout_height="91dp"
+            android:layout_marginRight="1dp"
+            android:layout_weight="1.0"
+            android:background="#87B1AD"
+            android:fontFamily="@font/roboto_regular"
+            android:text="Selected Subjects"
+            android:textColor="@android:color/white" />
+        <Button
+            android:id="@+id/forcast"
+            android:layout_width="215dp"
+            android:layout_height="91dp"
+            android:layout_marginRight="1dp"
+            android:layout_weight="1.0"
+            android:background="#87B1AD"
+            android:fontFamily="@font/roboto_regular"
+            android:text="Forcast"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+    <ListView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/list2"/>
+
+</LinearLayout>
