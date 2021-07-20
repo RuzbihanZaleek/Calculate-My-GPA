@@ -5,10 +5,6 @@ the upcoming subjects. Also, they can see the progress to achieve a class from s
 
 #Sample Images
 
-#Login
-
-![login](https://user-images.githubusercontent.com/78161633/126273281-22e9d42e-8f8f-4863-acd5-5f66f173bdbc.PNG)
-
 #Results
 
 ![result with gpa](https://user-images.githubusercontent.com/78161633/126273284-c23773d7-73d4-4114-94d4-b93fb4885467.PNG)
